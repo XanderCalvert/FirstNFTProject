@@ -4,9 +4,9 @@ const main = async () => {
     await nftContract.deployed();
     console.log("Contract deployed toL ", nftContract.address);
 
-    //call 
+    // call 
     let txn = await nftContract.makeAnEpicNFT();
-    //wait
+    // wait
     await txn.wait();
 
     // mint a second to test increment

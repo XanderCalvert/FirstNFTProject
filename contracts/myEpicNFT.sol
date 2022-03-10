@@ -14,7 +14,7 @@ contract MyEpicNFT is ERC721URIStorage {
     Counters.Counter private _tokenIds;
 
     constructor() ERC721("SquareNFT", "SQUARE") {
-        console.log("This is my NFT contract. Whoa!");
+        console.log("This is my NFT contract. Whoa that is pretty cool!");
     }
 
     // give NFT
