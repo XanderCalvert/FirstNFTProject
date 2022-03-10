@@ -20,8 +20,8 @@ module.exports = {
     solidity: "0.8.4",
     networks: {
         rinkerby: {
-            url: '',
-            accounts: [''],
+            url: 'https://eth-rinkeby.alchemyapi.io/v2/00000000000000000000000000000000',
+            accounts: ['0000000000000000000000000000000000000000000000000000000000000000'],
         }
     }
 };
