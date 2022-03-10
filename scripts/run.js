@@ -8,10 +8,12 @@ const main = async () => {
     let txn = await nftContract.makeAnEpicNFT();
     // wait
     await txn.wait();
+    console.log("Minted NFT #1")
 
     // mint a second to test increment
     txn = await nftContract.makeAnEpicNFT();
     await txn.wait();
+    console.log("Minted NFT #2")
 };
 
 const runMain = async () => {
